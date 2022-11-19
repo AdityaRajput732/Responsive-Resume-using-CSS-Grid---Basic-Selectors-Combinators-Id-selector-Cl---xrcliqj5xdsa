@@ -6,4 +6,131 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Write CSS code below */
+body {
+    
+    background-color: #a6abad;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 1000px;
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+.left-section {
+
+background-color: #242531;
+}
+.right-section {
+    
+    background-color: #f7f7f7;
+    
+}
+.left-content {
+    padding: 1rem;
+}
+
+.profile-image {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.profile {
+    color: white;
+}
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    color: white;
+}
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.social-media {
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    
+    margin: 0 30px;
+}
+.skill-title {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+.personal-details {
+
+list-style-type: none;
+}
+.personal-details li {
+    padding-top: 8px;
+    color: white;
+}
+.skill-name {
+    font-size: 12px;
+  font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: white;
+    padding-top: 0.8rem;
+}
+.progress-bar{
+   background-color: white;
+    border: 1px solid white;
+  height: 4px;
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.graduate {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.graduate-contain {
+    width: 700px;
+    
+}
+.graduate-date {
+    margin-left: 85px;
+}
+.para {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+@media (max-width: 674px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        min-height: 1000px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .graduate-contain {
+        width: 70%;
+        
+    }
+}
