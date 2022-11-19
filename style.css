@@ -18,11 +18,12 @@ body {
 }
 .left-section {
 max-width: 300px;
+    grid-column: span 1;
 background-color: #242531;
 }
 .right-section {
     max-width: 90%;
-    
+    grid-column: span 1 / span 2;
     background-color: #f7f7f7;
     
 }
