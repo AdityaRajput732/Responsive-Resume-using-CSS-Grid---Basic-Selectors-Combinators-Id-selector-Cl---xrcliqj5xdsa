@@ -116,7 +116,7 @@ list-style-type: none;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-@media (max-width: 674px) {
+@media (max-width: 673px) {
     .main-content {
        
         grid-template-columns: repeat(1, 1fr);
