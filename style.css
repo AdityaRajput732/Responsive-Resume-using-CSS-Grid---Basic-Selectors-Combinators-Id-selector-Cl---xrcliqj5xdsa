@@ -62,7 +62,7 @@ background-color: #242531;
     padding: 1rem;
 }
 .social-media {
-    display: flex;
+    display: grid;
     gap: 35px;
     list-style-type: none;
     
